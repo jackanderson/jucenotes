@@ -1,0 +1,92 @@
+
+.notes {
+  background: #f0f0f0;
+  padding: 10px;
+  margin: 5px;
+}
+.notes .notes-spacer {
+    height: 30px;
+}
+.notes .notes-header {
+	color: 	#3D578C;
+    font-weight:bold;
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    line-height: 25px;    
+    vertical-align: middle;    
+}
+.notes .notes-list .notes-note {
+    min-height: 150px;
+    border: #a0a0a0 solid 1px;
+    margin-bottom: 10px;
+
+}
+.notes .notes-list .notes-note .note-header {
+    background: #e0e0e0;
+    border-bottom: 1px solid #a0a0a0;
+    padding: 5px;
+    font-weight:bold;
+}
+.notes .notes-list .notes-note .note-value {
+    padding: 5px;
+    padding-left: 30px;
+}
+.notes .notes-list .odd {
+    background: #c0c0c0;
+}
+.notes .notes-list .even {
+    background: #d0d0d0;
+}
+.notes .notes-leaveone {
+    color:  #3D578C;
+    font-weight:bold;
+    cursor: pointer;    
+	float: right;
+	vertical-align: middle;
+    line-height: 25px;
+	height: 25px;
+}
+.notes .notes-approval {
+    color: green;
+}
+.notes .notes-error {
+    color: red;
+}
+.notes .notes-leaveone img {
+	margin-right: 4px;
+    vertical-align: -1%;
+}
+.notes .notes-hidden {
+    display:none;
+}
+.notes .notes-form {
+	display: none;
+}
+
+.note .notes-form form fieldset {
+    background: #eee;
+    display: block;
+    width: 100%;
+}
+.notes .notes-form ul {
+    list-style-type: none;
+}
+.notes .notes-form ul li {
+    width: 75%;
+}
+.notes .notes-form ul label {
+    display: block;
+    float: left;
+    width: 20%;
+    font-weight: bold;
+}
+.notes .notes-form textarea {
+     display: block;
+     width: 90%;
+     height: 200px;
+     padding: 8px;
+     border: 1px solid #cccccc;
+     line-height: 130%;
+     font-size: 13px;
+}
